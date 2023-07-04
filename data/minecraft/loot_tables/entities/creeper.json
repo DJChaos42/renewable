@@ -1,0 +1,120 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gunpowder",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:creeper_drop_music_discs",
+          "expand": true
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "killer",
+          "predicate": {
+            "type": "#minecraft:skeletons"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_pigstep",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "killer",
+              "predicate": {
+                "type": "minecraft:piglin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:disc_fragment_5",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 4
+                  }
+                },
+                {
+                  "function": "minecraft:looting_enchant",
+                  "count": 1,
+                  "limit": 9
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_otherside"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "killer",
+          "predicate": {
+            "type": "minecraft:warden"
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:entities/creeper"
+}

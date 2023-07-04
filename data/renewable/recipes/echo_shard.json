@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "echo_shard",
+  "pattern": [
+    " # ",
+    "#X#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:sculk"
+    },
+    "X": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "result": {
+    "item": "minecraft:echo_shard"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dragon_head"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "killer_player",
+          "predicate": {
+            "type_specific": {
+              "type": "player",
+              "advancements": {
+                "minecraft:end/respawn_dragon": true
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:elytra"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "killer_player",
+          "predicate": {
+            "type_specific": {
+              "type": "player",
+              "advancements": {
+                "minecraft:end/respawn_dragon": true
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:entities/ender_dragon"
+}
