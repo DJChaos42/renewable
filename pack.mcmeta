@@ -1,8 +1,23 @@
 {
   "pack": {
-    "pack_format": 15,
-    "description": {
-      "text": "Making resources renewable!"
-    }
+    "pack_format": 17,
+    "supported_formats": {
+      "min_inclusive": 16,
+	  "max_inclusive": 17
+    },
+    "description": [
+      {
+        "text": "Renewable",
+        "color": "dark_purple"
+      },
+      {
+        "text": " by DJChaos ",
+        "color": "white"
+      },
+      {
+        "text": "v1.0.0",
+        "color": "green"
+      }
+    ]
   }
 }

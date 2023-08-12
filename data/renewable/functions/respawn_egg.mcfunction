@@ -1,2 +1,2 @@
-execute in minecraft:the_end run summon falling_block 0 70 0 {BlockState:{Name:"minecraft:dragon_egg"},Time:1}
+execute in minecraft:the_end positioned 0 1 0 positioned over motion_blocking run summon falling_block ~ ~ ~ {BlockState:{Name:"minecraft:dragon_egg"},Time:1}
 advancement revoke @a only renewable:respawn_egg
