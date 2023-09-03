@@ -28,9 +28,6 @@ Gilded Blackstone
 Golden Horse Armor
 - Crafted with 7 Gold Ingots in an "H" pattern.
 
-Heart of the Sea
-- Crafted with a Nether Star surrounded by 8 Prismarine Crystals.
-
 Iron Horse Armor
 - Crafted with 7 Iron Ingots in an "H" pattern.
 
@@ -39,6 +36,10 @@ Piglin Banner Pattern
 
 Pink Petals
 - Crafted with 2 Cherry Leaf blocks.
+
+Pottery Sherd Duplication
+- Sherds can be duplicated with a similar recipe to Smithing Templates, using the Sherd, 7 Bricks, and another item.
+- The item required for duplication depends on the Sherd being duplicated. Each one is unique.
 
 Soul Soil
 - Crafted with 2 Dirt and 2 Soul Sand.
@@ -62,15 +63,20 @@ Ender Dragon
 
 Husk
 - Drops Gold Ingots instead of Iron Ingots.
-- Has a chance to drop a random Pottery Sherd when killed.
 - Drop the Relic music disc when killed by a Creeper.
 
 Wither
 - Drops a Netherite Smithing Template (maximum of 4 wth Looting).
 
+Elder Guardian
+- Has a chance to drop a Heart of the Sea.
+
 
 Gameplay Changes
 --------------------
+
+Entities
+- Guardians will be converted into Elder Guardians when struck by lightning.
 
 End
 - A new Dragon Egg is spawned every time an Ender Dragon is killed instead of only the first time.
