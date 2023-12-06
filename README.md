@@ -24,9 +24,6 @@ New Recipes
 ### Diamond Horse Armor
 - Crafted with 7 Diamonds in an "H" pattern.
 
-### Echo Shard
-- Crafted with an Amethyst Shard and 4 Sculk Blocks in a "+" pattern.
-
 ### Enchanted Golden Apple
 - Same as the now removed vanilla recipe. (8 Gold Blocks around an Apple.)
 
@@ -80,8 +77,12 @@ Loot Changes
 Gameplay Changes
 --------------------
 
+### Echo Shards
+- Can be created by dropping an amethyst shard onto an activated, naturally spawned sculk shrieker.
 ### End
 - A new Dragon Egg is spawned every time an Ender Dragon is killed instead of only the first time.
+### Guardians
+- Guardians will be converted into Elder Guardians when struck by lightning.
 
 </details>
 

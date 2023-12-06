@@ -1,5 +1,6 @@
 {
   "values": [
+    "renewable:convert_echo_shard",
     "renewable:convert_guardian"
   ]
 }
