@@ -3,15 +3,15 @@
   "entity": "this",
   "predicate": {
     "type": "minecraft:item",
-    "nbt": "{Item:{id:\"minecraft:amethyst_shard\", Count:1b}}",
+    "nbt": "{Item:{id:\"minecraft:amethyst_shard\",Count:1b}}",
     "location": {
       "block": {
         "blocks": [
           "minecraft:sculk_shrieker"
         ],
         "state": {
-          "can_summon": true,
-          "shrieking": true
+          "can_summon": "true",
+          "shrieking": "true"
         }
       }
     }

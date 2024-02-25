@@ -73,25 +73,6 @@
           "looting_multiplier": 0.01
         }
       ]
-    },
-    {
-      "rolls": 1,
-      "bonus_rolls": 0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_relic"
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "killer",
-          "predicate": {
-            "type": "minecraft:creeper"
-          }
-        }
-      ]
     }
   ],
   "random_sequence": "minecraft:entities/husk"
