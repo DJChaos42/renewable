@@ -1,3 +1,7 @@
+# Version 1.0.4
+### Removals
+- Actually removed the old Echo Shard Recipe
+----
 # Version 1.0.3
 ## Additions
 - Obtaining/eating an Enchanted Golden Apple grants the "Overpowered" advancement
