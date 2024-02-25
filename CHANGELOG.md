@@ -1,4 +1,4 @@
-# Version 1.0.2
+# Version 1.0.3
 ## Additions
 - Obtaining/eating an Enchanted Golden Apple grants the "Overpowered" advancement
   - A fun little Easter egg for older players.
@@ -21,10 +21,22 @@
 ## Removals
 - Removed the pink petal recipe, as they can be duplicated using bone meal.
 ----
-# Version 1.0.1
+# Version 1.0.2
 ## Changes
 - Echo shards can no longer be directly crafted. They are now created by dropping an amethyst shard onto an activated, naturally spawned sculk shrieker.
   - There is a 30% chance that the shard will be destroyed.
+----
+# Version 1.0.1
+## Additions
+
+- Pottery Sherds can now be duplicated in a Crafting Table.
+- Guardians which are struck by lightning are converted into Elder Guardians.
+- Elder Guardians now have a chance to drop the Heart of the Sea.
+
+## Changes
+
+- Husks no longer drop Pottery Sherds.
+- The crafting recipe for the Heart of the Sea has been removed.
 ----
 # Version 1.0.0
 - Initial release of Renewable for 1.20.x, a recipe and loot table data pack which makes finite resources renewable.
